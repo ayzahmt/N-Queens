@@ -25,6 +25,10 @@ namespace NQueens
                     Console.WriteLine("\n");
                 }
             }
+            else
+            {
+                Console.WriteLine("There is no solution!");
+            }
             Console.Read();
         }
 
